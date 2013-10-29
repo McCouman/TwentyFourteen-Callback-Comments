@@ -1,7 +1,7 @@
 <?php
 if (isset($_GET["callback"]) && !empty($_GET["callback"])) {
   $callback = $_GET["callback"];
-	//Header für ein JavaScript
+	 //Header für ein JavaScript
   	header("Content-Type: application/javascript");
   	
   	if (isset($_GET["id"]) && !empty($_GET["id"])) {

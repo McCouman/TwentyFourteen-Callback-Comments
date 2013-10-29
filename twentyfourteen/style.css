@@ -131,12 +131,12 @@ textarea {
 
 /* Selection */
 ::-moz-selection {
-	background: #CE1919;
+	background: #41a62a;
 	color: #fff;
 	text-shadow: none;
 }
 ::selection {
-	background: #CE1919;
+	background: #41a62a;
 	color: #fff;
 	text-shadow: none;
 }
@@ -193,7 +193,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-	color: #CE1919;
+	color: #41a62a;
 	text-decoration: none;
 }
 hr {
@@ -352,7 +352,6 @@ input {
 	line-height: normal; /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
 	*overflow: visible;  /* Corrects inner spacing displayed oddly in IE6/7 */
 }
-div#callbutton,
 button,
 html input[type="button"],
 input[type="reset"],
@@ -370,7 +369,6 @@ input[type="submit"] {
 	text-transform: uppercase;
 	vertical-align: top;
 }
-div#callbutton:hover,
 button:hover,
 html input[type="button"]:hover,
 input[type="reset"]:hover,
@@ -379,15 +377,14 @@ button:focus,
 html input[type="button"]:focus,
 input[type="reset"]:focus,
 input[type="submit"]:focus {
-	background-color: #CE1919;
+	background-color: #41a62a;
 	cursor: pointer;
 }
-div#callbutton:active,
 button:active,
 html input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	background-color: #FF3402;
+	background-color: #5FF23D;
 	box-shadow: inset 0 0 8px 2px rgba(0, 0, 0, 0.2), 0 1px 0 0 rgba(0, 0, 0, 0.2);
 }
 input[type="checkbox"],
@@ -408,6 +405,12 @@ button::-moz-focus-inner,
 input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
 	border: 0;
 	padding: 0;
+}
+.inputer {
+	height: 37px;
+	width: 100%;
+	margin-top: -24px;
+	cursor: text;
 }
 div.inputer,
 input[type="text"],
@@ -446,13 +449,13 @@ textarea {
 
 /* Links */
 a {
-	color: #CE1919;
+	color: #41a62a;
 	text-decoration: none;
 }
 a:hover,
 a:focus,
 a:active {
-	color: #FF3402;
+	color: #5FF23D;
 }
 /* Animated elements */
 #page a,
@@ -610,7 +613,7 @@ body {
 	padding-left: 1.0rem;
 }
 .header-extra {
-	background-color: #CE1919;
+	background-color: #41a62a;
 	float: right;
 }
 .site-title {
@@ -643,7 +646,7 @@ body {
 }
 .social-links-toggle,
 .search-toggle {
-	background-color: #CE1919;
+	background-color: #41a62a;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	color: #fff;
@@ -665,7 +668,7 @@ body {
 .search-toggle:hover,
 .social-links-toggle.active,
 .search-toggle.active {
-	background-color: #CE1919
+	background-color: #35921f
 }
 .search-toggle {
 	display: none;
@@ -705,7 +708,7 @@ body {
 	z-index: 2;
 }
 .social-links {
-	background-color: #CE1919;
+	background-color: #35921f;
 	list-style: none;
 	margin: 0;
 	padding-top: 8px;
@@ -775,7 +778,7 @@ body {
 	content: '\f213';
 }
 .search-box {
-	background-color: #CE1919;
+	background-color: #35921f;
 }
 .search-box #searchform input[type="text"] {
 	background-color: #fff;
@@ -862,14 +865,14 @@ body {
 	background-color: #000;
 }
 .primary-navigation ul ul a:hover {
-	color: #CE1919;
+	color: #41a62a;
 }
 .primary-navigation ul li:hover > ul {
 	display: block;
 }
 .primary-navigation li.current_page_item > a,
 .primary-navigation li.current-menu-item > a {
-	color: #FF3402;
+	color: #5FF23D;
 }
 
 /* Secondary Navigation */
@@ -889,7 +892,7 @@ body {
 	text-transform: uppercase;
 }
 .secondary-navigation a:hover {
-	color: #FF3402;
+	color: #5FF23D;
 }
 .secondary-navigation ul {
 	list-style: none;
@@ -907,7 +910,7 @@ body {
 }
 #secondary .current_page_item > a,
 #secondary .current-menu-item > a {
-	color: #FF3402;
+	color: #5FF23D;
 }
 
 /* Mobile Navigations */
@@ -995,7 +998,7 @@ body {
 	color: #2b2b2b;
 }
 .entry-title a:hover {
-	color: #CE1919;
+	color: #41a62a;
 }
 .entry-meta {
 	clear: both;
@@ -1019,7 +1022,7 @@ body {
 	color: #2b2b2b;
 }
 .cat-links a:hover {
-	color: #CE1919;
+	color: #41a62a;
 }
 .byline {
 	display: none;
@@ -1230,8 +1233,8 @@ footer.entry-meta {
 	text-decoration: none;
 }
 .page-links a:hover {
-	background: #CE1919;
-	border: 1px solid #CE1919;
+	background: #41a62a;
+	border: 1px solid #41a62a;
 }
 .page-links > span.page-links-title {
 	margin: 0;
@@ -1385,7 +1388,7 @@ footer.entry-meta {
 }
 #featured-content .entry-meta a:hover,
 #featured-content .entry-title a:hover {
-	color: #FF3402;
+	color: #5FF23D;
 }
 #featured-content .entry-meta {
 	font-size: 11px;
@@ -1419,7 +1422,7 @@ footer.entry-meta {
 	margin-bottom: 0;
 }
 #featured-content .more-link {
-	color: #FF3402;
+	color: #5FF23D;
 	font-size: 11px;
 	font-size: 1.1rem;
 }
@@ -1753,8 +1756,8 @@ span > object {
 	text-transform: uppercase;
 }
 .paging-navigation .page-numbers.current {
-	border-top: 1px solid #CE1919;
-	color: #CE1919;
+	border-top: 1px solid #41a62a;
+	color: #41a62a;
 }
 .paging-navigation a {
 	color: #2b2b2b;
@@ -1807,7 +1810,7 @@ span > object {
 .site-content .post-navigation a:hover,
 .site-content #image-navigation a:hover {
 	background-color: rgba(0, 0, 0, 0.01);
-	color: #CE1919;
+	color: #41a62a;
 }
 .comment-navigation {
 	color: rgba(0, 0, 0, 0.2);
@@ -1884,7 +1887,7 @@ span > object {
 .comment-meta a:hover,
 .commentlist li.trackback a:hover,
 .commentlist li.pingback a:hover {
-	color: #CE1919;
+	color: #41a62a;
 	text-decoration: none;
 }
 .comment-edit-link:before,
@@ -1929,7 +1932,7 @@ span > object {
 	height: 2.2rem;
 }
 .bypostauthor > article .comment-author .comment-author-avatar {
-	background-color: #CE1919;
+	background-color: #41a62a;
 }
 .comment-author cite {
 	font-style: normal;
@@ -2049,7 +2052,7 @@ span > object {
 	color: rgba(255, 255, 255, 0.75);
 }
 .widget-area a:hover {
-	color: #FF3402;
+	color: #5FF23D;
 }
 .widget-area .widget-title,
 .widget-area .widget-title a {
@@ -2086,7 +2089,7 @@ span > object {
 .widget-area html input[type="button"],
 .widget-area input[type="reset"],
 .widget-area input[type="submit"] {
-	background-color: #CE1919;
+	background-color: #41a62a;
 	font-size: 11px;
 	font-size: 1.1rem;
 	padding: 6px 24px;
@@ -2100,13 +2103,13 @@ span > object {
 .widget-area html input[type="button"]:focus,
 .widget-area input[type="reset"]:focus,
 .widget-area input[type="submit"]:focus {
-	background-color: #CE1919;
+	background-color: #35921f;
 }
 .widget-area button:active,
 .widget-area html input[type="button"]:active,
 .widget-area input[type="reset"]:active,
 .widget-area input[type="submit"]:active {
-	background-color: #CE1919;
+	background-color: #35921f;
 }
 .widget-area input[type="text"],
 .widget-area input[type="email"],
@@ -2169,12 +2172,12 @@ span > object {
 	display: block;
 }
 .widget_calendar #wp-calendar tbody a {
-	background-color: #CE1919;
+	background-color: #41a62a;
 	color: #fff;
 	display: block;
 }
 .widget_calendar #wp-calendar tbody a:hover {
-	background-color: #CE1919;
+	background-color: #35921f;
 }
 .widget_calendar #wp-calendar {
 	border: 1px solid rgba(255, 255, 255, 0.2);
@@ -2235,7 +2238,7 @@ span > object {
 	color: #fff;
 }
 .widget_flickr #flickr_badge_uber_wrapper a:hover {
-	color: #FF3402;
+	color: #5FF23D;
 }
 .widget_flickr #flickr_badge_wrapper {
 	background-color: transparent;
@@ -2359,7 +2362,7 @@ span > object {
 	color: #2b2b2b;
 }
 #content-sidebar a:hover {
-	color: #CE1919;
+	color: #41a62a;
 }
 #content-sidebar button,
 #content-sidebar html input[type="button"],
@@ -2379,13 +2382,13 @@ span > object {
 #content-sidebar html input[type="button"]:focus,
 #content-sidebar input[type="reset"]:focus,
 #content-sidebar input[type="submit"]:focus {
-	background-color: #CE1919;
+	background-color: #41a62a;
 }
 #content-sidebar button:active,
 #content-sidebar html input[type="button"]:active,
 #content-sidebar input[type="reset"]:active,
 #content-sidebar input[type="submit"]:active {
-	background-color: #FF3402;
+	background-color: #5FF23D;
 }
 #content-sidebar input[type="text"],
 #content-sidebar input[type="email"],
@@ -2447,7 +2450,7 @@ span > object {
 	color: #2b2b2b;
 }
 #content-sidebar .widget_flickr #flickr_badge_uber_wrapper a:hover {
-	color: #CE1919;
+	color: #41a62a;
 }
 #content-sidebar .widget-grofile h4 {
 	color: #2b2b2b;
@@ -2528,7 +2531,7 @@ span > object {
 	color: #fff;
 }
 #infinite-handle span:hover {
-	background-color: #CE1919;
+	background-color: #41a62a;
 }
 .infinite-loader {
 	margin: 48px auto;

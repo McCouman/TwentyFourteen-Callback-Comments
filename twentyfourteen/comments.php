@@ -135,8 +135,8 @@ if ( is_user_logged_in() ) {
 *	Callback Comments
 */
 $(function() {
-
-$("#start").click(function() {
+/*callback about mousover*/
+$("#start").mouseover(function() { 
 
   // Löschen bereits vorhandener JSONP Skripte
   var scripts = document.getElementsByTagName("script");
